@@ -181,7 +181,7 @@ form {
 }
 
 .subtitle {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   margin: 0px;
   margin-bottom: 5px;
 }
@@ -306,7 +306,7 @@ form label {
     /* Rules in here will only apply when a screen is the correct size */
     /* check it out by using your developer tools to shrink your screen-size */
     .container {
-      background-color: rgba(12, 8, 234, 0.65);
+      background-color: rgba(136, 255, 144, 0.737);
       flex-direction: column;
       justify-content: center;
       align-items: center;
