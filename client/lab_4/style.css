@@ -312,4 +312,10 @@ form label {
       align-items: center;
       flex: none;
     }
+    .right_section {
+      align-items: flex-start;
+      padding: 2rem;
+    }
+
+
 }
