@@ -61,6 +61,7 @@ form {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: 0;
   flex: 1;
 }
@@ -68,16 +69,16 @@ form {
 .container {
   margin: 0 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: start;
   flex:1;
 }
 
 .header {
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1.5rem;
+  padding-top: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 
@@ -93,9 +94,11 @@ form {
 
   /* colors */
   background-color: rgba(105, 152, 253, 0.783);
+  border-color: white;
   color: #ffffff;
 
   /* shapes */
+  border: 5px dashed;
   border-radius: 6px;
   font-size: 1.5rem;
   padding: 1.25rem;
@@ -120,7 +123,7 @@ form {
   background-color: rgba(105, 152, 253, 0.783);;
   border: 2px dashed;
   border-radius: 4px;
-  border-color: black;
+  border-color: white;
 
   width: fit-content;
   height:fit-content;
@@ -134,6 +137,7 @@ form {
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
+  width: min-content;
 }
 
 .right_section {
@@ -142,7 +146,7 @@ form {
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
-  max-width: 450px;
+  max-width: 1000px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -155,9 +159,14 @@ form {
 */
 
 .footer {
+  margin: 2.5px;
+  margin-bottom: 0;
   flex-shrink: 0;
   padding: 1rem;
   background-color: #1b0482;
+  border-radius: 6px;
+  border-style: dashed;
+  border-color: white;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -312,10 +321,19 @@ form label {
       align-items: center;
       flex: none;
     }
-    .right_section {
-      align-items: flex-start;
-      padding: 2rem;
+    
+    .left_section {
+      padding-bottom: 4rem;
     }
 
+    .right_section {
+      align-items: flex-start;
+      padding-bottom: 4rem;
+    }
+
+    .box {
+      align-self: center;
+      width: -webkit-fill-available;
+    }
 
 }
