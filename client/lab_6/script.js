@@ -128,7 +128,7 @@ async function mainEvent() {
 
       // This constant will have the value of your 15-restaurant collection when it processes
       const restaurantList = processRestaurants(arrayFromJson.data);
-      console.log(restaurantList);
+      // console.log(restaurantList);
 
       // And this function call will perform the "side effect" of injecting the HTML list for you
       injectHTML(restaurantList);
